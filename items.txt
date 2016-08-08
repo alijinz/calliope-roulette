@@ -1,38 +1,38 @@
 eggs
 alcohol
-a hat
-a deflated volleyball 
-a volleyball
-a broken television
-a newspaper article
-a suspicious-looking berries
-a suit
-a dress
-a knife
-a pair of scissors
+hat
+deflated volleyball 
+volleyball
+broken television
+newspaper article
+suspicious-looking berries
+suit
+dress
+knife
+scissors
 tampons
-a bra
-a pair of boxers
+bra
+pair of boxers
 nail polish
 waxing strips
 some tweezers
-a razor
+razor
 pieces of broken glass
-a puppy 
-a kitten
-a baseball bat
-a love potion
+puppy 
+kitten
+baseball bat
+love potion
 ratty gloves
 fishing pole
-a hoe
-a pickaxe
-a watering can
-a bell
-a stolen wallet
+hoe
+pickaxe
+watering can
+bell
+stolen wallet
 car keys
-a lot of cash
-a trashy romance novel
-a telescope 
-a questionable or indecent or straight out porn magazine 
+lot of cash
+trashy romance novel
+telescope 
+questionable or indecent or straight out porn magazine 
 underwear
-a Victoria’s Secret shopping bag
+Victoria’s Secret shopping bag
