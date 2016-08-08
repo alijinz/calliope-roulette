@@ -1,6 +1,11 @@
-var items = ["dog", "cat", "horse", "cow"];
+//var items = ["dog", "cat", "horse", "cow"];
 
 function myFunction() {
     var x = document.getElementById("testing");
-    x.innerHTML = Math.floor((Math.random() * 4) + 0);
+    var y = Math.floor((Math.random() * 2) + 1);
+    x.innerHTML = items[y];
 }
+
+jQuery.get('https://rawgit.com/orzoxcv/calliope-roulette/master/animals.txt', function(data) {
+    alert(data);
+});
