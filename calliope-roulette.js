@@ -27,7 +27,7 @@ function initializeCharries(){
 	}
 }
 
-function myFunction(){
+function genScenario(){
 	var text = document.getElementById("outputScenario");
 	initializeCharries();
 
