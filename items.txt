@@ -2,7 +2,7 @@ carton of eggs
 carton of milk
 bottle of gin
 silly hat
-deflated volleyball 
+deflated volleyball
 volleyball
 broken television
 newspaper article
@@ -49,7 +49,7 @@ stolen wallet
 car keys
 lot of cash
 trashy romance novel
-telescope 
+telescope
 questionable or indecent or straight out porn magazine
 piece of underwear
 Victoria’s Secret shopping bag
@@ -60,7 +60,7 @@ secret diary
 cupcake
 rotten apple
 rotten banana
-baby picture album
+baby album
 word of advice
 apology
 case of hiccups
@@ -102,3 +102,6 @@ rat poison
 DVD rental of Love, Actually
 tube of magic hair growth cream
 copy of 50 Shades of Grey
+love letter
+glass of sangria
+pair of high-heels
