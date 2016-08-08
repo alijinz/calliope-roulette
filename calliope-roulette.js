@@ -101,12 +101,12 @@ function genScenario(){
 	var item = randomValueFromArray(items);
 	var state = randomValueFromArray(states);
 
-	scenario = scenario.replace("/:P1:/g", charries[char1]);
-	scenario = scenario.replace("/:P2:/g", charries[char2]);
-	scenario = scenario.replace("/:xitem:/g", item);
-	scenario = scenario.replace("/:xstate:/g", state);
+	scenario = scenario.replace(/:P1:/g, charries[char1]);
+	scenario = scenario.replace(/:P2:/g, charries[char2]);
+	scenario = scenario.replace(/:xitem:/g, item);
+	scenario = scenario.replace(/:xstate:/g, state);
 	if (charries.length>2){
-		scenario = scenario.replace("/:P3:/g", charries[char3]);
+		scenario = scenario.replace(/:P3:/g, charries[char3]);
 	}
 
 
