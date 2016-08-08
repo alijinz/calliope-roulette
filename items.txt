@@ -5,7 +5,7 @@ deflated volleyball
 volleyball
 broken television
 newspaper article
-suspicious-looking berries
+handful of suspicious-looking berries
 suit
 dress
 knife
@@ -14,7 +14,7 @@ box of tampons
 bra
 pair of boxers
 nail polish
-waxing strips
+pack of waxing strips
 some tweezers
 razor
 pieces of broken glass
@@ -38,3 +38,8 @@ underwear
 Victoria’s Secret shopping bag
 smelly sock
 teddy bear
+secret recipe
+secret diary
+cupcakes
+rotton banana
+baby pictures
