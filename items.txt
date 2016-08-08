@@ -1,22 +1,23 @@
 eggs
 alcohol
-hats 
-deflated volleyball 
-volleyball
-broken television
-paper
-suspicious-looking berries
-undergarments
+a hat
+a deflated volleyball 
+a volleyball
+a broken television
+a newspaper article
+a suspicious-looking berries
+a suit
+a dress
 a knife
-scissors
+a pair of scissors
 tampons
-bras
-boxers
+a bra
+a pair of boxers
 nail polish
 waxing strips
-tweezers
-razors
-broken glass
+some tweezers
+a razor
+pieces of broken glass
 a puppy 
 a kitten
 a baseball bat
