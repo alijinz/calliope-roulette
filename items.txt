@@ -13,8 +13,9 @@ dress
 cocktail dress
 wedding dress
 bikini
-swimming shorts
-sunscreen
+pair of swimming trunks
+bottle of sunscreen
+tube of shaving cream
 knife
 pair of scissors
 box of tampons
@@ -32,7 +33,7 @@ kitten
 sick kitten
 diaper
 prized cow
-poop
+bag of poop
 jar of pennies
 baseball bat
 love potion
@@ -49,7 +50,7 @@ car keys
 lot of cash
 trashy romance novel
 telescope 
-questionable or indecent or straight out porn magazine 
+questionable or indecent or straight out porn magazine
 piece of underwear
 Victoria’s Secret shopping bag
 smelly sock
@@ -86,3 +87,8 @@ imaginary friend
 limosine
 retirement plan
 piece of cake
+lunchbox
+snickers bar
+ice cream sandwich
+TV remote
+chicken pox
