@@ -59,9 +59,11 @@ function genScenario(){
 	}
 	else if (x==2){
 		scenario += ":P1: sees :P2: walking around with :a(n): :xitem:."
-		var y = Math.floor(Math.random() * 1);
+		var y = Math.floor(Math.random() * 2)+1;
 		if (y == 1){
 			scenario += " Plot-twist: It's :P3:'s.";
+		} else {
+			scenario += " TESTING, IGNORE. :P3:";
 		}
 	}
 	else if (x==3){
@@ -75,7 +77,7 @@ function genScenario(){
 	}
 	else {
 		scenario += ":P1: has :P2:'s :xitem:."
-		var y = Math.floor(Math.random() * 1);
+		var y = Math.floor(Math.random() * 2)+1;
 		if (y == 1){
 			scenario += " But :P2: doesn't know that. Yet.";
 		}
