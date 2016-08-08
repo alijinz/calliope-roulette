@@ -1,8 +1,15 @@
+/*
+Coded by Orzo with special thanks to Birdy (for the idea + word list contributions)
+Also thanks to w3schools, Mozilla Firefox, Stack Overflow, the Internet... and of course, Calliope Town <3
+otherwise, this would not have been possible!
+*/
+
 
 var items = [];
 var charries = [];
 var char1;
 var char2;
+var char3;
 
 $.get('https://rawgit.com/orzoxcv/calliope-roulette/master/items.txt', function(data) {
     items = data.split("\n");
@@ -25,6 +32,12 @@ function initializeCharries(){
 	while(char2 == char1){
 		char2 = Math.floor(Math.random() * (charries.length-1));
 	}
+	if (charries.length>2){
+		char3 = char2;
+		while(char3 == char2 || char3 == char1){
+			char3 = Math.floor(Math.random() * (charries.length-1));
+		}
+	}
 }
 
 function genScenario(){
@@ -46,6 +59,10 @@ function genScenario(){
 	}
 	else if (x==2){
 		scenario += ":P1: sees :P2: walking around with :a(n): :xitem:."
+		var y = Math.floor(Math.random() * 1);
+		if (y == 1){
+			scenario += " Plot-twist: It's :P3:'s.";
+		}
 	}
 	else if (x==3){
 		scenario += ":P1: steals :P2:'s :xitem:."
@@ -58,7 +75,7 @@ function genScenario(){
 	}
 	else {
 		scenario += ":P1: has :P2:'s :xitem:."
-		var y = Math.floor((Math.random() * 1) + 0);
+		var y = Math.floor(Math.random() * 1);
 		if (y == 1){
 			scenario += " But :P2: doesn't know that. Yet.";
 		}
@@ -71,6 +88,9 @@ function genScenario(){
 	scenario = scenario.replace(":P1:", charries[char1]);
 	scenario = scenario.replace(":P2:", charries[char2]);
 	scenario = scenario.replace(":xitem:", item);
+	if (charries.length>2){
+		scenario = scenario.replace(":P3:", charries[char3]);
+	}
 
 
 	//***GRAMMAR STUFF***//
