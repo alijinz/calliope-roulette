@@ -60,10 +60,10 @@ function genScenario(){
 	else if (x==2){
 		scenario += ":P1: sees :P2: walking around with :a(n): :xitem:."
 		var y = Math.floor(Math.random() * 2)+1;
-		if (y == 1){
-			scenario += " Plot-twist: It's :P3:'s.";
-		} else {
-			scenario += " TESTING, IGNORE. :P3:";
+		if (charries.length>2){
+			if (y == 1){
+				scenario += " Plot-twist: It's :P3:'s.";
+			}
 		}
 	}
 	else if (x==3){
