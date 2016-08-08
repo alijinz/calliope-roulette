@@ -63,7 +63,7 @@ function genScenario(){
 		scenario += ":P1: gives :P2: :a(n): :xitem:.";
 	}
 	else if (x==2){
-		scenario += ":P1: sees :P2: walking around with :a(n): :xitem:"
+		scenario += ":P1: sees :P2: walking around with :a(n): :xitem:";
 		
 		var w = Math.floor(Math.random() * 2)+1;
 		if (w == 1){
