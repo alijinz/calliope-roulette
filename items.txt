@@ -26,7 +26,9 @@ ratty gloves
 fishing pole
 hoe
 pickaxe
+chainsaw
 watering can
+watering hose
 bell
 stolen wallet
 car keys
@@ -42,8 +44,16 @@ secret recipe
 secret diary
 cupcakes
 rotten banana
-album of baby pictures
+baby picture album
 word of advice
 apology
 case of hiccups
 haircut
+Christmas tree
+blood
+favorite shirt
+fingerprint
+hug
+kiss
+privacy
+wallet
