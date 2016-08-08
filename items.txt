@@ -10,7 +10,7 @@ suit
 dress
 knife
 pair of scissors
-tampons
+box of tampons
 bra
 pair of boxers
 nail polish
@@ -36,3 +36,5 @@ telescope
 questionable or indecent or straight out porn magazine 
 underwear
 Victoria’s Secret shopping bag
+smelly sock
+teddy bear
