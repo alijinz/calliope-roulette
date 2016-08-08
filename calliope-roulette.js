@@ -1,4 +1,8 @@
-//var items = ["dog", "cat", "horse", "cow"];
+var items = [];
+
+$.get('https://rawgit.com/orzoxcv/calliope-roulette/master/animals.txt', function(data) {
+    items = data.split("\n");
+});
 
 function myFunction() {
     var x = document.getElementById("testing");
@@ -6,6 +10,4 @@ function myFunction() {
     x.innerHTML = items[y];
 }
 
-jQuery.get('https://rawgit.com/orzoxcv/calliope-roulette/master/animals.txt', function(data) {
-    alert(data);
-});
+
