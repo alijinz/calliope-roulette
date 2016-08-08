@@ -7,5 +7,5 @@ $.get('https://rawgit.com/orzoxcv/calliope-roulette/master/animals.txt', functio
 function myFunction() {
     var x = document.getElementById("testing");
     var y = Math.floor((Math.random() * items.length) + 0);
-    x.innerHTML = items[y];
+    x.innerHTML = items[y] + " " + items.length;
 }
