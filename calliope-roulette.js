@@ -99,7 +99,7 @@ function genScenario(){
 
 	//***MAD LIBS REPLACEAROO***//
 	var item = randomValueFromArray(items);
-	var item = randomValueFromArray(states);
+	var state = randomValueFromArray(states);
 
 	scenario = scenario.replace(":P1:", charries[char1]);
 	scenario = scenario.replace(":P2:", charries[char2]);
