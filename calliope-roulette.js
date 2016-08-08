@@ -7,12 +7,17 @@ otherwise, this would not have been possible!
 
 var items = [];
 var charries = [];
+var states = [];
 var char1;
 var char2;
 var char3;
 
 $.get('https://rawgit.com/orzoxcv/calliope-roulette/master/items.txt', function(data) {
     items = data.split("\n");
+});
+
+$.get('https://rawgit.com/orzoxcv/calliope-roulette/master/states.txt', function(data) {
+    states = data.split("\n");
 });
 
 // $.get('https://rawgit.com/orzoxcv/calliope-roulette/master/characters.txt', function(data) {
@@ -58,7 +63,15 @@ function genScenario(){
 		scenario += ":P1: gives :P2: :a(n): :xitem:.";
 	}
 	else if (x==2){
-		scenario += ":P1: sees :P2: walking around with :a(n): :xitem:."
+		scenario += ":P1: sees :P2: walking around with :a(n): :xitem:"
+		
+		var w = Math.floor(Math.random() * 2)+1;
+		if (w == 1){
+			scenario += " while :xstate:.";
+		} else {
+			scenario += ".";
+		}
+		
 		var y = Math.floor(Math.random() * 2)+1;
 		if (charries.length>2){
 			if (y == 1){
@@ -86,10 +99,12 @@ function genScenario(){
 
 	//***MAD LIBS REPLACEAROO***//
 	var item = randomValueFromArray(items);
+	var item = randomValueFromArray(states);
 
 	scenario = scenario.replace(":P1:", charries[char1]);
 	scenario = scenario.replace(":P2:", charries[char2]);
 	scenario = scenario.replace(":xitem:", item);
+	scenario = scenario.replace(":xstate:", state);
 	if (charries.length>2){
 		scenario = scenario.replace(":P3:", charries[char3]);
 	}
