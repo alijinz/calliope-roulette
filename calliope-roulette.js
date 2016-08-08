@@ -33,7 +33,8 @@ function genScenario(){
 
 	//***GENERATE A SCENARIO***//
 
-	var x = Math.floor((Math.random() * 5) + 0);
+	var x = Math.floor((Math.random() * 6) + 0);
+	
 
 	var scenario = "For some reason, ";
 
@@ -47,13 +48,20 @@ function genScenario(){
 		scenario += ":P1: sees :P2: walking around with :a(n): :xitem:."
 	}
 	else if (x==3){
-		scenario += ":P1: steals :a(n): :xitem: from :P2:."
+		scenario += ":P1: steals :P2:'s :xitem:."
 	}
 	else if (x==4){
 		scenario += ":P1: needs to borrow :P2:'s :xitem:."
 	}
+	else if (x==5){
+		scenario += ":P1: and :P2: are arguing over who gets the last :xitem:.";
+	}
 	else {
 		scenario += ":P1: has :P2:'s :xitem:."
+		var y = Math.floor((Math.random() * 1) + 0);
+		if (y == 1){
+			scenario += " But :P2: doesn't know that. Yet.";
+		}
 	}
 
 
