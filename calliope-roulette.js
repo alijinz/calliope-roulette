@@ -51,7 +51,7 @@ function genScenario(){
 
 	//***GENERATE A SCENARIO***//
 
-	var x = Math.floor((Math.random() * 6) + 0);
+	var x = Math.floor(Math.random() * 7); //from 0-6
 	
 
 	var scenario = "For some reason, ";
