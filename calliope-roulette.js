@@ -1,6 +1,6 @@
 var items = [];
 
-$.get('https://rawgit.com/orzoxcv/calliope-roulette/master/animals.txt', function(data) {
+$.get('https://rawgit.com/orzoxcv/calliope-roulette/master/items.txt', function(data) {
     items = data.split("\n");
 });
 
