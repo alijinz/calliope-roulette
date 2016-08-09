@@ -27,9 +27,8 @@ pair of tweezers
 razor
 lollipop
 puppy
-sad puppy
 firstborn child
-kitten
+cat
 sick kitten
 diaper
 prized cow
@@ -63,7 +62,6 @@ rotten banana
 baby album
 word of advice
 apology
-case of hiccups
 haircut
 Christmas tree
 blood
@@ -91,12 +89,12 @@ lunchbox
 snickers bar
 ice cream sandwich
 TV remote
-chicken pox
+case of chicken pox
 statue of themself
 candy stash
 book of secrets
 burning passion
-tickets to Disneyland
+ticket to Disneyland
 load of rat poison
 DVD rental of Love, Actually
 tube of magic hair growth cream
@@ -108,3 +106,5 @@ birth control pill
 bottle of beer
 wedding ring
 dirty secret
+bank account
+pet succulent
