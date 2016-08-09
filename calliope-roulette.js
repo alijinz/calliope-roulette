@@ -32,10 +32,10 @@ function randomValueFromArray(array){
 function initializeCharries(){
 	var x = document.getElementById("myText").value;
 	charries = x.split("\n");
-	char1 = Math.floor(Math.random() * (charries.length-1));
+	char1 = Math.floor(Math.random() * (charries.length));
 	char2 = char1;
 	while(char2 == char1){
-		char2 = Math.floor(Math.random() * (charries.length-1));
+		char2 = Math.floor(Math.random() * (charries.length));
 	}
 	if (charries.length>2){
 		char3 = char2;
