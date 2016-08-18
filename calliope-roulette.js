@@ -54,7 +54,7 @@ function genScenario(){
 	var state = randomValueFromArray(states);
 
 	//***GENERATE A SCENARIO***//
-	var x = Math.floor(Math.random() * 7); //from 0-6
+	var x = Math.floor(Math.random() * 8); //from 0-7
 	
 	var scenario = "For some reason, ";
 
@@ -70,22 +70,20 @@ function genScenario(){
 		//***Check that the "item" makes sense***//
 		var checklogic = item.substring(0,1);
 		while (checklogic.localeCompare("*")==0) {
-			item = "stubbed toe";
+			item = randomValueFromArray(items);
 		}
 		
 		//***Tack on some extra goodies!***//
-		var w = Math.floor(Math.random() * 3)+1;
-		if (w == 1){
+		var addwhile = Math.floor(Math.random() * 2)+1;
+		if (addwhile == 1){
 			scenario += " while :xstate:.";
-		} else if (w == 2) {
-			scenario += " because they're :xstate:.";
 		} else {
 			scenario += ".";
 		}
 		
-		var y = Math.floor(Math.random() * 2)+1;
+		var plottwist = Math.floor(Math.random() * 2)+1;
 		if (charries.length>2){
-			if (y == 1){
+			if (plottwist == 1){
 				scenario += " Plot-twist: It's :P3:'s.";
 			}
 		}
@@ -98,11 +96,20 @@ function genScenario(){
 	}
 	else if (x==5){
 		scenario += ":P1: and :P2: are arguing over who gets the last :xitem:.";
+		
+		//***Check that the "item" makes sense***//
+		var checklogic = item.substring(0,1);
+		while (checklogic.localeCompare("*")==0) {
+			item = randomValueFromArray(items);
+		}
 	}
-	else {
+	else if (x==6) {
+		scenario += ":P1: is :state:, and :P2: is the last person they want to see."
+	}
+	else { //x==7
 		scenario += ":P1: has :P2:'s :xitem:."
-		var y = Math.floor(Math.random() * 2)+1;
-		if (y == 1){
+		var knowyet = Math.floor(Math.random() * 2)+1;
+		if (knowyet == 1){
 			scenario += " But :P2: doesn't know that. Yet.";
 		}
 	}
