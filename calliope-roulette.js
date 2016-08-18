@@ -48,12 +48,14 @@ function initializeCharries(){
 function genScenario(){
 	var text = document.getElementById("outputScenario");
 	initializeCharries();
+	
+	//***RANDOMIZE MADLIBS***//
+	var item = randomValueFromArray(items);
+	var state = randomValueFromArray(states);
 
 	//***GENERATE A SCENARIO***//
-
 	var x = Math.floor(Math.random() * 7); //from 0-6
 	
-
 	var scenario = "For some reason, ";
 
 	if (x==0){
@@ -65,9 +67,18 @@ function genScenario(){
 	else if (x==2){
 		scenario += ":P1: sees :P2: walking around with :a(n): :xitem:";
 		
-		var w = Math.floor(Math.random() * 2)+1;
+		//***Check that the "item" makes sense***//
+		var checklogic = item.substring(0,1);
+		while (checklogic.localeCompare("*")==0) {
+			item = "stubbed toe";
+		}
+		
+		//***Tack on some extra goodies!***//
+		var w = Math.floor(Math.random() * 3)+1;
 		if (w == 1){
 			scenario += " while :xstate:.";
+		} else if (w == 2) {
+			scenario += " because they're :xstate:.";
 		} else {
 			scenario += ".";
 		}
@@ -98,9 +109,6 @@ function genScenario(){
 
 
 	//***MAD LIBS REPLACEAROO***//
-	var item = randomValueFromArray(items);
-	var state = randomValueFromArray(states);
-
 	scenario = scenario.replace(/:P1:/g, charries[char1]);
 	scenario = scenario.replace(/:P2:/g, charries[char2]);
 	scenario = scenario.replace(/:xitem:/g, item);
@@ -108,6 +116,9 @@ function genScenario(){
 	if (charries.length>2){
 		scenario = scenario.replace(/:P3:/g, charries[char3]);
 	}
+	
+	//***LOGIC STUFF***//
+	scenario = scenario.replace(/\*/g, "");
 
 
 	//***GRAMMAR STUFF***//
