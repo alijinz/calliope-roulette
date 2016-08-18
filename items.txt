@@ -36,7 +36,7 @@ bag of poop
 jar of pennies
 baseball bat
 love potion
-ratty gloves
+pair of ratty gloves
 fishing pole
 hoe
 pickaxe
@@ -45,7 +45,7 @@ watering can
 watering hose
 bell
 stolen wallet
-car keys
+house key
 lot of cash
 trashy romance novel
 telescope
@@ -57,25 +57,26 @@ teddy bear
 secret recipe
 secret diary
 cupcake
+pie
 rotten apple
-rotten banana
 baby album
 word of advice
 apology
 haircut
 Christmas tree
+belated birthday present
 blood
 favorite shirt
 fingerprint
 kiss
-sense of privacy
+*sense of privacy
 wallet
 bandaid
 box of chocolates
-kick in the shin
+*kick in the shin
 pack of Skittles
 poster of Justin Bieber
-challenge
+*challenge
 skirt
 bowtie
 smile
@@ -93,18 +94,19 @@ case of chicken pox
 statue of themself
 candy stash
 book of secrets
-burning passion
 ticket to Disneyland
 load of rat poison
-DVD rental of Love, Actually
+DVD rental of <i>Love, Actually</i>
 tube of magic hair growth cream
-copy of 50 Shades of Grey
+copy of <i>50 Shades of Grey</i>
 love letter
 glass of sangria
 pair of high-heels
 birth control pill
 bottle of beer
 wedding ring
-dirty secret
+*dirty secret
 bank account
 pet succulent
+lump of fresh meat
+bath
