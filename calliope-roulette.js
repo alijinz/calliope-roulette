@@ -104,7 +104,7 @@ function genScenario(){
 		}
 	}
 	else if (x==6) {
-		scenario += ":P1: is :state:, and :P2: is the last person they want to see."
+		scenario += ":P1: is :xstate:, and :P2: is the last person they want to see."
 	}
 	else { //x==7
 		scenario += ":P1: has :P2:'s :xitem:."
