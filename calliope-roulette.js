@@ -71,6 +71,7 @@ function genScenario(){
 		var checklogic = item.substring(0,1);
 		while (checklogic.localeCompare("*")==0) {
 			item = randomValueFromArray(items);
+			checklogic = item.substring(0,1);
 		}
 		
 		//***Tack on some extra goodies!***//
@@ -101,6 +102,7 @@ function genScenario(){
 		var checklogic = item.substring(0,1);
 		while (checklogic.localeCompare("*")==0) {
 			item = randomValueFromArray(items);
+			checklogic = item.substring(0,1);
 		}
 	}
 	else if (x==6) {
