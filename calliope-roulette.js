@@ -106,7 +106,17 @@ function genScenario(){
 		}
 	}
 	else if (x==6) {
-		scenario += ":P1: is :xstate:, and :P2: is the last person they want to see."
+		scenario += ":P1: is :xstate:, and ";
+		
+		var addstuff = Math.floor(Math.random() * 3)+1;
+		if (addstuff == 1){
+			scenario += " they have :P2:'s :xitem:.";
+		} else if (addstuff == 2){
+			scenario += " :P2: is the last person they want to see."
+		}
+		} else {
+			scenario += " they have :P2: to blame.";
+		}
 	}
 	else { //x==7
 		scenario += ":P1: has :P2:'s :xitem:."
