@@ -59,7 +59,7 @@ function genScenario(){
 	var scenario = "For some reason, ";
 
 	if (x==0){
-		scenario += ":P1: owes :P2: :a(n): :xitem:."	
+		scenario += ":P1: owes :P2: :a(n): :xitem:.";	
 	}
 	else if (x==1){
 		scenario += ":P1: gives :P2: :a(n): :xitem:.";
@@ -90,10 +90,10 @@ function genScenario(){
 		}
 	}
 	else if (x==3){
-		scenario += ":P1: steals :P2:'s :xitem:."
+		scenario += ":P1: steals :P2:'s :xitem:.";
 	}
 	else if (x==4){
-		scenario += ":P1: needs to borrow :P2:'s :xitem:."
+		scenario += ":P1: needs to borrow :P2:'s :xitem:.";
 	}
 	else if (x==5){
 		scenario += ":P1: and :P2: are arguing over who gets the last :xitem:.";
@@ -112,8 +112,7 @@ function genScenario(){
 		if (addstuff == 1){
 			scenario += " they have :P2:'s :xitem:.";
 		} else if (addstuff == 2){
-			scenario += " :P2: is the last person they want to see."
-		}
+			scenario += " :P2: is the last person they want to see.";
 		} else {
 			scenario += " they have :P2: to blame.";
 		}
