@@ -1,5 +1,5 @@
 /*
-Coded by Orzo with special thanks to Birdy (for the idea + word list contributions)
+Coded by Orzo (alijinz on Github) with special thanks to Birdy (for the idea + word list contributions)
 Also thanks to w3schools, Mozilla Firefox, Stack Overflow, the Internet... and of course, Calliope Town <3
 otherwise, this would not have been possible!
 */
