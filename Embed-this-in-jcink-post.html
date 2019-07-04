@@ -1,0 +1,93 @@
+[dohtml]
+<sc[/dohtml][dohtml]ript src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></sc[/dohtml][dohtml]ript>
+
+<sc[/dohtml][dohtml]ript>
+
+ $.getScript("https://rawgit.com/alijinz/calliope-roulette/master/calliope-roulette.js");
+
+</sc[/dohtml][dohtml]ript>
+
+
+<style>
+.omatic {
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+.txtheader {
+    text-align: center;
+    font-size:14px;
+}
+
+.button {
+    background-color: deepskyblue;
+    border: none;
+    color: white;
+    padding: 40px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#outputScenario {
+    padding:20px;
+    font-size: 14px;
+}
+
+</style>
+
+
+
+
+<table style="margin:auto;">
+  <tr>
+    <td class="omatic">
+
+<p class="txtheader">Characters:</p>
+<textarea rows="8" cols="22" id="myText">Agatha Rouzet
+Harry Potter
+Ron Weasley
+Hermione Granger
+Albus Dumbledore
+Severus Snape
+Minerva McGonagall
+Rubeus Hagrid
+Sirius Black
+Luna Lovegood
+Neville Longbottom
+Draco Malfoy</textarea>
+
+<br><br>
+
+
+</td>
+    <td class="omatic">
+
+<button on[/dohtml][dohtml]click="genScenario()" class="button">ASK THE MUSES</button>
+
+
+</td>
+    <td  class="omatic" style="width:200px;">
+
+<p id="outputScenario"></p>
+
+</td>
+  </tr>
+
+
+</table>
+
+<p><div style="margin:auto;width:300px;background: #ffffff; border: 1px solid #e0e0e0;padding:20px; font-size:10px;">[/dohtml][b]notes ♥[/b][LIST]
+[*][color=deepskyblue][b]you can manually edit the character list![/b][/color] (however, changes aren't saved)
+[*][b]yes[/b], share your results!
+[*][b]yes[/b], create a thread from this!
+[*]default character list is a guesstimation of active characters from the time of creation. it will not be updated regularly. please PM if you'd like your character to be added!
+[/LIST][dohtml]</div></p>
+
+<p><div style="text-align:center;font-size:10px;">[/dohtml]see the source code on [url=https://github.com/alijinz/calliope-roulette/]github[/url][dohtml]</div></p>
+
+[/dohtml]
